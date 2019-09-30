@@ -132,7 +132,6 @@ def main():
     ie_gaze = IECore()
     net_gaze = IENetwork(model=model_gaze+'.xml', weights=model_gaze+'.bin')
     if device == 'CPU':
-      #ie_det.add_extension(cpu_ext, 'CPU')    # absolute path is required
       ie_gaze.add_extension(cpu_ext, 'CPU')    # absolute path is required
       #ie_gaze.add_extension('C:/tmp/cpu_extension.dll', 'CPU')       # absolute path is required
     #input_name_gaze  = next(iter(net_gaze.inputs))                       # Input blob name
