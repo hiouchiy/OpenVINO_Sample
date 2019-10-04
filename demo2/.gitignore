@@ -1,0 +1,4 @@
+# Data files and directories common in repo root
+train/
+val/
+test/

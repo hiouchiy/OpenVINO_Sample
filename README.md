@@ -1,6 +1,7 @@
 # OpenVINO Sample - Eye Beam using OpenVINO pre-trained models
 
-## How to run
+## デモの動かし方
 
-### 1. Install OpenVINO following this instructions. After 2019R2 is preffered.
+### 1. OpenVINOをインストールする。（2019R2.0.1をWindows 10にて使用）
+
 ### 2. 
