@@ -13,5 +13,5 @@ Model Downloaderの使い方は[こちら](https://docs.openvinotoolkit.org/late
 ### 2. gaze3.pyの下記2つの変数に適切なパスを設定
 - cpu_ext： CPU用拡張ライブラリ絶対パス
     - Windows 10: C:\Users\USER_NAME\Documents\Intel\OpenVINO\inference_engine_samples_build\intel64\Release\cpu_extension.dll
-    - Linux: /home/USER_NAME/inference_engine_samples_build/intel64/Release/cpu_extension.so
+    - Linux: /home/USER_NAME/inference_engine_samples_build/intel64/Release/lib/cpu_extension.so
 - model_base_path：上記でダウンロードしたモデルが格納されているTransportディレクトリまでの絶対パス
